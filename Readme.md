@@ -1,4 +1,4 @@
-#Selection of the base
+# Selection of the base
 Spring Boot or the base configuration:
 - Tasks don't require interaction with complicated technologies/frameworks, communication with databases or etc., 
 therefore the base configuration is enough to complete this challenge.
@@ -12,7 +12,7 @@ Allure:
 - **Allure** is the framework that helps to check results of testing or any changes in results. 
 It provides simple UI and has integration with Jenkins.
 ---
-#Selection of testing frameworks
+# Selection of testing frameworks
 The first step is to determine frameworks to communicate with interfaces from tasks:
 - UI task: 
   - **Selenium**
@@ -32,7 +32,7 @@ The first step is to determine frameworks to communicate with interfaces from ta
   - **Lombok**
     - This framework simplifies the code by reducing the need to write getters/setters or constructors for each field of the class.
 ---
-#Patterns
+# Patterns
 The second step is to determine how to write code very simple to another could understand it very quick and how to write code by optimize way.
 - **Page Object** is the pattern for WebUI testing, which reduces the amount of duplicated code and if the UI changes, the fix need only be applied in one place.
 - **Facade design pattern** helps to hide the complexities of the larger system and provides a simpler interface.
@@ -40,7 +40,7 @@ The second step is to determine how to write code very simple to another could u
   This pattern also helps to minimize code length.
 - **Randomization of tests** is necessary to provide different tests that might detect some bugs in the system.
 ---
-#Preparations
+# Preparations
 The third step is to prepare all necessary objects, classes and JSONs:
 - There might be a lot of tests that use same methods and variables, therefore it's important to take care of 
   general classes in advance, which contains everything necessary.
@@ -48,7 +48,7 @@ The third step is to prepare all necessary objects, classes and JSONs:
   prepare their models in the framework.
 
 ---
-#Possible steps for improvements
+# Possible steps for improvements
 - On the big projects its more preferable to use Spring, because there can be a lot of environments,
   certain data (passwords, urls, certificates) and dependencies. Some frameworks are easier to use with Spring.
 - All interactions with additional frameworks(e.g. kafka, jdbc, etc.) are easy to realize in ***src.main.java*** as a
@@ -57,6 +57,6 @@ The third step is to prepare all necessary objects, classes and JSONs:
 - It's also possible to connect Log4j for certain logging.
 - RandomHelper will also grow as necessary.
 ---
-#Execution
+# Execution
 Tests are easy to execute not only locally, but also from Jenkins with command "mvn clean test -Dsuite=${suite}", where
-"suite" is the variable of suite name without "testng-".
+"suite" is the variable of suite name without "testng-". E.g. mvn clean test -Dsuite=api
