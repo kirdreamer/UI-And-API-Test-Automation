@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-17T21:56:30 MSK" name="api_suite" finished-at="2022-06-17T21:56:35 MSK" duration-ms="4614">
+    <groups>
+    </groups>
+    <test started-at="2022-06-17T21:56:30 MSK" name="api_suite" finished-at="2022-06-17T21:56:35 MSK" duration-ms="4614">
+      <class name="tests.API.RegistrationAndLoginAPITest">
+        <test-method is-config="true" signature="prediction()[pri:0, instance:tests.API.RegistrationAndLoginAPITest@aed0151]" started-at="2022-06-17T21:56:30 MSK" name="prediction" finished-at="2022-06-17T21:56:30 MSK" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prediction -->
+        <test-method signature="getCredentials()[pri:0, instance:tests.API.RegistrationAndLoginAPITest@aed0151]" started-at="2022-06-17T21:56:30 MSK" name="getCredentials" description="Getting credentials from user" finished-at="2022-06-17T21:56:33 MSK" duration-ms="3400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCredentials -->
+        <test-method signature="registerNewUser()[pri:0, instance:tests.API.RegistrationAndLoginAPITest@aed0151]" started-at="2022-06-17T21:56:34 MSK" name="registerNewUser" description="Complete registration" finished-at="2022-06-17T21:56:34 MSK" depends-on-methods="tests.API.RegistrationAndLoginAPITest.getCredentials" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUser -->
+        <test-method signature="login()[pri:0, instance:tests.API.RegistrationAndLoginAPITest@aed0151]" started-at="2022-06-17T21:56:34 MSK" name="login" description="Performing a login" finished-at="2022-06-17T21:56:35 MSK" depends-on-methods="tests.API.RegistrationAndLoginAPITest.registerNewUser" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- tests.API.RegistrationAndLoginAPITest -->
+    </test> <!-- api_suite -->
+  </suite> <!-- api_suite -->
+</testng-results>
