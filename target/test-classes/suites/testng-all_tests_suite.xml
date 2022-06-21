@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="all_tests_suite">
-    <suite-files>
-        <suite-file path="testng-ui.xml"/>
-        <suite-file path="testng-api.xml"/>
-    </suite-files>
-</suite>
