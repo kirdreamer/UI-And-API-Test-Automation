@@ -1,4 +1,19 @@
-# Selection of the base
+# Task Description
+Build a test automation framework:
+
+UI task:
+
+Design a test suite for login functionality on http://the-internet.herokuapp.com/login (existing user credentials are displayed on the page);
+
+API task:
+
+Go to https://reqres.in
+
+Get user credentials from GET single user endpoint request
+Using the credentials implement an E2E scenario for registration & login and verify that every endpoint returns the correct token.
+
+# Solution
+Selection of the base
 Spring Boot or the base configuration:
 - Tasks don't require interaction with complicated technologies/frameworks, communication with databases or etc., 
 therefore the base configuration is enough to complete this challenge.
