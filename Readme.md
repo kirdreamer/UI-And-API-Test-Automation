@@ -30,10 +30,10 @@ It provides simple UI and has integration with Jenkins.
 # Selection of testing frameworks
 The first step is to determine frameworks to communicate with interfaces from tasks:
 - UI task: 
-  - **Selenium**
-    - **Selenium** is one of the leaders in test automation for **WebUI**, which provides the opportunity to open browser,
+  - **Selenium WebDriver**
+    - **Selenium WebDriver** is one of the leaders in test automation for **WebUI**, which provides the opportunity to open browser,
       **find** necessary elements by Xpath, id, text or functionality of the element and **interact** with them.
-    - **Selenium** provides the ability to **wait** for an element/page without interrupting, unlike Thread.sleep(), which
+    - **Selenium WebDriver** provides the ability to **wait** for an element/page without interrupting, unlike Thread.sleep(), which
       makes test execution very fast.
     
 - API task: 
